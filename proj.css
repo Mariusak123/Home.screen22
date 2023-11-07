@@ -1,8 +1,4 @@
-head {
-    meta charset: "UTF-8";
-    meta name: "viewport" content: "width=device-width, initial-scale=1.0";
-    title: "Passwords";
-}
+
 
 body {
     background-color: rgb(144, 144, 150);
@@ -289,3 +285,291 @@ button {
             margin: 10px 0; 
             display: none;
         }
+
+
+body {
+    background-color: rgb(144, 144, 150);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#title {
+    color: rgb(64, 55, 102);
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transition: 0.5s;
+    transform: translate(-50%, -50%);
+}
+#title:hover {
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+        0 3px 0 #ccc, 0 4px 0 #ccc,
+        0 5px 0 #ccc, 0 6px 0 #ccc,
+        0 7px 0 #ccc, 0 8px 0 #ccc,
+        0 9px 0 #ccc, 0 10px 0 #ccc,
+        0 11px 0 #ccc, 0 12px 0 #ccc,
+        0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.top-left {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.top-left1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.top-left2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+
+.top-middle {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+.top-middle2 {
+    position: absolute;
+    top: 30%;
+    left: 45.5%;
+}
+.top-middle1 {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
+
+.top-right {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.top-right1 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.top-right2 {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown {
+    position: relative;
+    margin: 10px 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+button {
+    margin: 5px;
+    padding: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.submenu-btn {
+    font-weight: normal;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+    /* Line 1 */
+   .line1-btn {
+    background-color: black;
+    color: white; 
+    }
+    .cobot-btn {
+        background-color: rgb(52, 82, 52); 
+    }
+    .loma-btn {
+        background-color: rgb(76, 94, 76); 
+    }
+    .adpack-btn {
+        background-color:  rgb(52, 82, 52); 
+    }
+    
+    .videojet-btn {
+        background-color: rgb(52, 82, 52); 
+    }
+    
+    .marden-btn {
+        background-color: rgb(52, 82, 52); 
+    }
+    
+    .LockBox-btn {
+        background-color: rgb(52, 82, 52); 
+    }
+    
+
+
+    /* Line 2 */
+    .line2-btn {
+        background-color: black
+    }
+    .marden2-btn {
+    background-color: rgb(131, 68, 68); 
+    }
+    .loma2-btn {
+    background-color: rgb(180, 97, 97); 
+    }
+
+
+    /* Line 3 */
+    .line3-btn {
+        background-color: black 
+    }
+    .bradman-btn {
+        background-color: rgb(110, 110, 226); 
+    }
+    .starflex-btn {
+        background-color: rgb(106, 106, 211); 
+    }
+    .sesotec-btn {
+        background-color: rgb(112, 112, 231); 
+    }
+
+    /* Line 4 */
+    .Line4-btn {
+        background-color: black;
+        color: white; 
+        }
+
+     /* Line 5 */ 
+     .line5-btn {
+        background-color: black /*  */
+    }
+    .videojet5-btn {
+        background-color: rgb(221, 120, 221); 
+    }
+    .bradmanbase-btn {
+        background-color: rgb(236, 114, 236); 
+    }
+
+    .MS5-btn {
+        background-color: rgb(236, 118, 236); 
+    }
+    .ME5-btn {
+        background-color: rgb(233, 107, 233); 
+    }
+    .xray-btn {
+        background-color: rgb(209, 92, 209); 
+    }
+    .bradmanlids-btn {
+        background-color: rgb(221, 95, 221); 
+    }
+    .recco-btn {
+        background-color: rgb(212, 96, 212); 
+    }
+
+
+     /* Fuji */  
+     .Fuji-btn {
+        background-color: black 
+    }
+    .print-btn {
+        background-color: rgb(180, 154, 6) /*  */
+    }
+    .Fuji1-btn {
+        background-color: rgb(176, 194, 15) /*  */
+    }
+
+    /* Dispenser */
+    .Dispenser-btn {
+        background-color: black /*  */
+    }
+    
+    .sesotecd-btn {
+        background-color: rgb(204, 67, 26) /*  */
+    }
+    .gwd-btn {
+        background-color: rgb(133, 32, 32) /*  */
+    }
+    .mdc-btn {
+        background-color: rgb(199, 36, 36) /*  */
+    }
+    /* Dispenser 2 */
+    .Dispenser2-btn {
+        background-color: rgb(0, 0, 0) /*  */
+    }
+    .disp-btn {
+        background-color: rgb(7, 26, 63) /*  */
+    }
+    /* Misc */
+     .MISC-btn {
+        background-color: black
+     }
+
+     .wksp-btn {
+            background-color: rgb(57, 90, 56) /*  */
+        }
+    .label-btn {
+            background-color: rgb(192, 101, 214) /*  */
+        }
+       
+    .key-btn {
+            background-color: rgb(255, 73, 73) /*  */
+        }
+        
+    .mdc-btn {
+            background-color: rgb(56, 48, 48) /*  */
+        }
+    .eclips-btn {
+            background-color: rgb(51, 187, 176) /*  */
+        }
+       
+    
+    .Masterlockoffice-btn {
+            background-color: rgb(43, 65, 68) /*  */
+     }
+   
+    .samplecuppe-btn {
+            background-color: rgb(143, 142, 86) /*  */
+        }
+   
+    
+        
+      
+       
+        .password-content {
+            position: relative; 
+            margin: 10px 0; 
+            display: none;
+        }
+
